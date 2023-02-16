@@ -4,22 +4,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.three{
-    height: 80px;
+div div{
     width: 80px;
+    height: 80px;
+}
+.item-3{
     background-color: green;
     font-size: 40px;
+    max-width: 80px;
+    max-height: 80px;
 }
-.one{
-    height: 80px;
-    width: 80px;
+.item-1{
     background-color: red;
     font-size: 40px;
+    max-width: 80px;
+    max-height: 80px;
 }
-.two{
-    height: 80px;
-    width: 80px;
+.item-2{
     background-color: blue;
     font-size: 40px;
+    max-width: 80px;
+    max-height: 80px;
 }
